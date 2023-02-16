@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: aqua;
+}
+
+/* Start header */
+.header {
+    background-color: orange;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-weight: 700px;
+    border: blue solid 4px;
+    text-align: center;
+    direction: rtl;
+}
+/* End Header */
+img {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    direction: rtl;
+}
+
+ul li {
+    font-size: 50px;
+    padding: 10px;
+    margin: 30px;
+    list-style: decimal;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+ul li:hover {
+    color: orange;
+    font-size: 70px;
+}
+
+.line {
+    width: 100%;
+    height: 20px;
+    border: 4px red solid;
+    margin-bottom: 30px;
+}
+
+.chemistry {
+    background-color: orange;
+}
+
+.chemistry h1 {
+    direction: rtl;
+    font-size: 60px;
+    border: blue solid 4px;
+    font-weight: 700px;
+    text-align: center;
+}
